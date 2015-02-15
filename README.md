@@ -1,5 +1,5 @@
 # Ecto.LazyFloat
-Ecto.LazyFloat - Ecto.Float that accepts binary and integers
+Ecto.LazyFloat - An Ecto.Float that accepts binary and integers
 
 Find on Hex - https://hex.pm/packages/ecto_lazy_float
 
