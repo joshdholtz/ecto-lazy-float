@@ -2,7 +2,7 @@ defmodule LazyFloat.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :lazy_float,
+    [app: :ecto_lazy_float,
      version: "0.1.0",
      elixir: "~> 1.0",
      name: "Ecto.LazyFloat"
