@@ -34,11 +34,11 @@ end
 
 ```elixir
 # With integer
-valid = Ecto.Changeset.cast(%{value: 1.2}, %Thing{}, [], [])
+valid = Ecto.Changeset.cast(%{value: 1}, %Thing{}, [], [])
 Repo.insert(valid)
 
 # With string
-valid = Ecto.Changeset.cast(%{value: 1.2}, %Thing{}, [], [])
+valid = Ecto.Changeset.cast(%{value: "1.2"}, %Thing{}, [], [])
 Repo.insert(valid)
 
 # With float
