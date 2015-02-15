@@ -10,7 +10,7 @@ Add Ecto.LazyFloat as a dependency in your `mix.exs` file.
 defp deps do
   [{:postgrex, ">= 0.0.0"},
    {:ecto, "~> 0.7"},
-   {:ecto_lazy_float, "~> 0.1.0"}]
+   {:ecto_lazy_float, "~> 0.1.2"}]
 end
 ```
 
