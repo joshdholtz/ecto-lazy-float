@@ -1,5 +1,5 @@
 # Ecto.LazyFloat
-Ecto.LazyFloat takes integer, strings, and floats and casts them to floats.
+Ecto.LazyFloat - Ecto.Float that accepts binary and integers
 
 Find on Hex - https://hex.pm/packages/ecto_lazy_float
 
