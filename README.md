@@ -1,6 +1,8 @@
 # Ecto.LazyFloat
 Ecto.LazyFloat takes integer, strings, and floats and casts them to floats.
 
+Find on Hex - https://hex.pm/packages/ecto_lazy_float
+
 ## Installation
 Add Ecto.LazyFloat as a dependency in your `mix.exs` file.
 
