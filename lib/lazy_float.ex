@@ -16,7 +16,7 @@ defmodule Ecto.LazyFloat do
     end
   end
 
-  def cast(float) when is_float(float) do: {:okay, float}
+  def cast(float) when is_float(float), do: {:okay, float}
 
   def cast(_), do: :error
   def blank?(_), do: false
