@@ -2,6 +2,7 @@ defmodule Ecto.LazyFloat do
 
   def type, do: :float
 
+  def cast(string) when is_binary(string) and sitrng == "", do: {:ok, nil}
   def cast(string) when is_binary(string) do
     case Float.parse(string) do
       {float, _} -> {:ok, float}
