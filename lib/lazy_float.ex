@@ -4,6 +4,7 @@ defmodule Ecto.LazyFloat do
 
   def cast(string) when is_binary(string) and string == "", do: {:ok, nil}
   def cast(string) when is_binary(string) do
+    if Regex.match?(~r/^\.[0-9]+$/, string), do: string = "0" <> string
     case Float.parse(string) do
       {float, _} -> {:ok, float}
       :error   -> :error
