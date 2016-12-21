@@ -22,7 +22,7 @@ defmodule Ecto.LazyFloat do
   def blank?(_), do: false
   
   def load(float) when is_float(float), do: {:ok, float}
-  def load(integer) when is_integer(integer), do {:ok, integer / 1}
+  def load(integer) when is_integer(integer), do: {:ok, integer / 1}
   def load(_), do: :error
   
   def dump(float) when is_float(float), do: {:ok, float}
