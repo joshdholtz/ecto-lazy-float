@@ -6,9 +6,9 @@ defmodule LazyFloat.Mixfile do
      version: "0.1.2",
      elixir: "~> 1.0",
      name: "Ecto.LazyFloat",
-     description: description,
-     package: package,
-     deps: deps]
+     description: description(),
+     package: package(),
+     deps: deps()]
   end
 
   def application do
