@@ -3,12 +3,12 @@ defmodule LazyFloat.Mixfile do
 
   def project do
     [app: :ecto_lazy_float,
-     version: "0.1.2",
+     version: "0.1.3",
      elixir: "~> 1.0",
      name: "Ecto.LazyFloat",
-     description: description,
-     package: package,
-     deps: deps]
+     description: description(),
+     package: package(),
+     deps: deps()]
   end
 
   def application do
